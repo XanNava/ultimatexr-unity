@@ -1040,8 +1040,6 @@ namespace UltimateXR.Core
                 AddScenePrecachedInstances(_dynamicInstances, scene, avatar);
             }
 
-            AddScenePrecachedInstances(_dynamicInstances, Instance.gameObject.scene, avatar);
-
             for (int frame = 0; frame < _precacheFrameCount; ++frame)
             {
                 avatar.CameraFade.EnableFadeColor(Color.black, 1.0f);
